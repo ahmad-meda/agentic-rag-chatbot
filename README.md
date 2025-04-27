@@ -84,8 +84,3 @@ chainlit run chainlit.py -w
 ```
 
 Access the app at `http://localhost:8000`.
-
-## License
-
-This project is licensed under the MIT License.
-![Uploading image.png…]()
