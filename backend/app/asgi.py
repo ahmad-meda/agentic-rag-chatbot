@@ -78,7 +78,7 @@ app = FastAPI(
     version="0.1.0",
     lifespan=lifespan
 )
-app.add_middleware(SessionMiddleware, secret_key=os.getenv('PHI_CHAT_SECRET_KEY'))
+app.add_middleware(SessionMiddleware, secret_key="os.getenv('PHI_CHAT_SECRET_KEY')")
 
 # Add CORS middleware
 app.add_middleware(

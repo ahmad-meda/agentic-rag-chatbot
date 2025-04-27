@@ -1,6 +1,6 @@
 # chainlit.py
 
-import chainlit as cl
+import frontend.chainlit as cl
 from backend.app.core.graph import graph  # your built workflow
 
 @cl.on_chat_start
