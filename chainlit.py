@@ -1,7 +1,7 @@
 # chainlit.py
 
 import chainlit as cl
-from graph import graph  # your built workflow
+from backend.app.core.graph import graph  # your built workflow
 
 @cl.on_chat_start
 async def start_chat():

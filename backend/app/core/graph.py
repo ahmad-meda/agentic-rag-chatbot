@@ -7,9 +7,9 @@ os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ['TOKENIZERS_PARALLELISM'] = "true"
 os.environ["LANGCHAIN_PROJECT"] = "agentic-rag"
 
-from utils import *
-from prompts import *
-from schemas import *
+from app.utils.utils import *
+from app.core.prompts import *
+from app.core.schemas import *
 
 import operator
 from langgraph.graph import END
